@@ -1,0 +1,17 @@
+ML – Report
+CC Project
+1. First I imported the libraries from python like numpy, pandas, matplotlib and seaborn.
+2. Next, I loaded the dataset
+3. Then I checked the columns having null values
+4. Next I tried to understand the range of the unknown features
+5. After that I mapped the string values to numbers
+6. Now I found the correlation matrix, plotted a heatmap and found the conclusions for the unknown features
+7. Now I imported KNNImputer and using that filled the null values. To ensure proper filling using integers I rounded the decimal values using .round(). The nulls were filled by taking the K-nearest integers and averaging them. Also I created a new csv file storing them
+8. Next I repeated the process of finding correlation and plotted the heatmap.
+9. Then I plotted some graphs using seaborn and asked some questions from the graph
+10. Then I reviewed the correlation matrix of romantic column and found the factors affecting it like grades, feature_1, school support etc.
+11.	Next using sklearn I tried various methods to build a good model so that I can predict if someone is in romantic relation. I tried Logistic Regression, pipeline method, decision tree, random forest and finally isolation forest from which isolation forest gave consistent results above 60% accuracy and random forest gave sometimes above 70% accuracy while others failed to give much satisfactory result though every model was giving nearly 60% accuracy
+12. Now from from sklearn.inspection I imported DecisionBoundaryDisplay and plotted decision boundaries of the models
+13. At last I tried to explain why one predicted Yes and other No but since I was getting errors and was not confident about the topic so I left it.
+14.Then for the final level I predicted decision boundaries of some unknown plots by observing the features like whether boundaries are st. line or curve or rough or smooth etc.
+ 
